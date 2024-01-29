@@ -1,0 +1,56 @@
+.contact {
+  width: 88%;
+  margin: auto;
+}
+
+/* Image Contact */
+.contactCard {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.boxBank {
+  width: 100%;
+}
+
+.imgBank {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text Contact */
+.contactText {
+  margin-top: 5rem;
+  padding-bottom: 1rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.contactText h4 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #0f136d;
+  line-height: 3.5rem;
+  font-family: sans-serif;
+}
+
+.content p {
+  display: inline;
+  line-height: 2rem;
+  color: #0f136d;
+  font-weight: 200;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+.content p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

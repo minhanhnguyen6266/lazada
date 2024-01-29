@@ -1,0 +1,26 @@
+.product {
+  width: 88%;
+  margin: auto;
+}
+
+.type {
+  margin-top: 2rem;
+}
+
+.type h4 {
+  font-size: 2.2rem;
+  color: #424242;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.shopMore {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more {
+  font-size: 1.5rem;
+  color: #009fc6;
+  cursor: pointer;
+}

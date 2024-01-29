@@ -1,0 +1,49 @@
+.lazMall {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  background-color: #fff;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.brand:hover {
+  box-shadow: 2px 4px 9px 5px rgba(0, 0, 0, 0.33);
+}
+
+.bigImage {
+  width: 100%;
+  object-fit: contain;
+}
+
+.smallImage {
+  position: absolute;
+  width: 5.6rem;
+  height: 5.6rem;
+  object-fit: cover;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  box-shadow: 3px 1px 5px 0 rgba(0, 0, 0, 0.22);
+}
+
+.info {
+  text-align: center;
+}
+
+.info .name {
+  font-size: 1.2rem;
+  padding-top: 2.4rem;
+}
+
+.info .from {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}

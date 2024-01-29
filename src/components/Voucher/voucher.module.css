@@ -1,0 +1,41 @@
+.vouchers {
+  width: 88%;
+  margin: auto;
+  margin-top: 1.3rem;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #fff;
+  border-radius: 10px;
+  padding-bottom: 2rem;
+}
+
+.sale {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.voucher {
+  margin: auto;
+  margin-left: 3rem;
+}
+
+.voucher:nth-child(2),
+.voucher:nth-child(3) {
+  border-left: 1px solid #ddd;
+  padding-left: 2rem;
+}
+
+.logoImage {
+  width: 65%;
+}
+
+.text {
+  font-family: 'Courier New', Courier, monospace;
+  color: #ccc;
+  font-size: 1.3rem;
+}
+
+.logoSaleImage {
+}

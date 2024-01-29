@@ -1,0 +1,9 @@
+.header {
+  background-color: rgb(196, 25, 45);
+}
+
+.header img {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.categories {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.category {
+  transition: all 0.3s;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.category:hover {
+  box-shadow: 3px 1px 5px 0 rgba(0, 0, 0, 0.22);
+}
+
+.cateImage {
+  width: 100%;
+  padding: 2rem 3rem 0 3rem;
+  object-fit: cover;
+}
+
+.cateName {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+}

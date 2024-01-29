@@ -1,0 +1,120 @@
+.justForYou {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  width: 100%;
+}
+
+.product {
+  width: 100%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.product:hover {
+  box-shadow: 2px 4px 9px 5px rgba(0, 0, 0, 0.33);
+}
+
+.image {
+  width: 19rem;
+  height: 19rem;
+  object-fit: cover;
+}
+
+.content {
+  padding: 0 0.8rem;
+}
+
+/* .useMall {
+  height: 1.4rem;
+} */
+
+.mall {
+  height: 1.4rem;
+  object-fit: contain;
+  margin-top: 0.5rem;
+}
+
+.noMall {
+  margin-top: 0.5rem;
+  height: 1.4rem;
+}
+
+.titleBox {
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sale {
+  height: 1.4rem;
+  object-fit: cover;
+  float: left;
+  padding-right: 1rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.newPrice {
+  font-size: 1.8rem;
+  color: #f57224;
+  margin-bottom: 0.25rem;
+}
+
+.old {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.oldPrice {
+  color: #9e9e9e;
+  text-decoration: line-through;
+  font-size: 1.2rem;
+}
+
+.percentage {
+  color: #212121;
+  opacity: 0.8;
+  font-size: 1.2rem;
+}
+
+.starBox {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.star {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: #faca51;
+  stroke: #9e9e9e;
+}
+
+.feedback {
+  font-size: 1.2rem;
+  padding-left: 0.6rem;
+  color: #9e9e9e;
+}
+
+.loadMore {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.btnLoadMore {
+  text-transform: uppercase;
+  padding: 1rem 10rem;
+  color: #1a9cb8;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid #1a9cb8;
+  cursor: pointer;
+}
